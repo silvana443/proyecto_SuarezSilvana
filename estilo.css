@@ -1,0 +1,127 @@
+.fuenteParrafo{
+    text-align: justify;
+}
+
+h4{
+    color: #8a5bf8;
+    font-family: arial;
+}
+.carousel-inner{
+    width: 70%;
+    height: 40%;
+    margin-left: 15%;
+}
+.card-text.fuenteParrafo{
+    font-size: large;
+    color: rgb(1, 39, 39);
+}
+body{
+    background-color: rgb(77, 129, 251);
+}
+
+
+/*contenedor rojo*/
+/*Ejemplo: Nest Hub Max*/
+@media only screen and (min-width: 1200px){
+   .imagenTamaño{
+    width: 
+
+   }
+}
+
+/*contenedor original*/
+/*Ejemplo: Nest Hub*/
+@media only screen and (min-width: 900px) and (max-width: 1199px){        
+    .enlace{
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+    .enlace:hover{
+        font-weight: bold;
+    }
+    
+    h1{
+        font-family: Impact;
+        font-weight: 100;
+        color:rgb(243, 4, 4);
+    }
+
+    .cabecera{
+        background-color: rgb(37, 37, 38);
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(229, 229, 234);
+        padding: 10px 5px;
+    }
+    
+    .contenedorIzq{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorDer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer{
+        background-color: rgb(68, 66, 66);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .imagenCard{
+        width: 100%;      
+    }
+    
+    .contenedorFooter{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footerVert{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin-left: 10%;
+        font-family: "calibri";
+    }
+    
+    .footerHor{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        margin-left: 13%;
+    }
+
+}
+
+/*contenedor negro*/
+/*Por ejemplo: Ipad Air*/
+@media only screen and (min-width: 768px) and (max-width: 899px){
+    
+}
+
+/*contenedor azul*/
+/*Ejemplo: Surface Duo*/
+@media only screen and (min-width: 480px) and (max-width: 767px){
+   
+}
+
+/*Ejemplo: Samsung Galaxy S20 Ultra*/
+@media only screen and (max-width: 479px){
+ 
+}
+
+
